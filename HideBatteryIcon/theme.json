@@ -1,12 +1,14 @@
 {
   "name": "HideBatteryIcon",
   "author": "numselli",
+  "version": "v1.1",
   "manifest_version": 9,
   "target": "Other",
   "description": "Hides battery icon",
   "inject": {
     "shared.css": [
-      "bigpicture"
+      "bigpicture",
+      "QuickAccess"
     ]
   }
 }
